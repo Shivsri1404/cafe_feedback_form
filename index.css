@@ -1,0 +1,65 @@
+*{
+
+}
+.container{
+    max-width: 60%;
+
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+    color: whitesmoke;
+    font-style: oblique;
+    
+    
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+input{
+    width: 85%;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(199, 61, 61);
+    border-radius: 10px;
+    
+}
+form{
+    text-align: center;
+    
+}
+textarea{
+    width: 85%;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid rgb(199, 61, 61);
+    border-radius: 10px;
+    text-align: center;
+
+    
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+}
+.btn{
+    width: 85px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(199, 61, 61);
+    border-radius: 10px;
+}
+.msg{
+    color: whitesmoke;
+}
